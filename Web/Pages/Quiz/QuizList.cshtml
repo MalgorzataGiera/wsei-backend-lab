@@ -1,0 +1,12 @@
+﻿@page
+@model QuizListModel
+@{
+    ViewData["Title"] = "Quizy";
+}
+<h1>@ViewData["Title"]</h1>
+
+@foreach (var quiz in Model.Quizzes)
+{
+    <p><a href="item/@quiz.Id/1">@quiz.Title</a></p>
+   
+}
