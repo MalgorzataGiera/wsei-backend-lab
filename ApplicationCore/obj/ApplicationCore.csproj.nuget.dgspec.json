@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\asp-lab\\gggg\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {}
+    "D:\\Users\\malgorzata.giera\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "D:\\asp-lab\\gggg\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\malgorzata.giera\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp-lab\\gggg\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\malgorzata.giera\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\asp-lab\\gggg\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\gosia\\.nuget\\packages\\",
-        "outputPath": "D:\\asp-lab\\gggg\\wsei-backend-lab\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\malgorzata.giera\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\malgorzata.giera\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\malgorzata.giera\\source\\repos\\wsei-backend-lab\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\malgorzata.giera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
