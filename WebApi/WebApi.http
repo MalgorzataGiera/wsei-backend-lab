@@ -1,0 +1,60 @@
+@WebApi_HostAddress = https://localhost:5224
+
+GET {{WebApi_HostAddress}}/
+Accept: application/json
+
+###
+
+PATCH https://localhost:5224/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
+
+[{
+  "op": "add",
+  "path": "/items/-",
+  "value": {
+    "question": "4*7",
+    "correctAnswer": "28",
+    "incorrectAnswers": ["27", "28", "29"]
+  }
+}]
+
+###
+
+PATCH https://localhost:7119/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
+
+[
+  {
+    "op": "replace",
+    "path": "title",
+    "value": "Arytmetyka"
+  }
+]
+
+###
+
+PATCH https://localhost:7119/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
+
+[
+  {
+    "op": "remove",
+    "path": "/items/0"
+  }
+]
+
+###
+
+PATCH https://localhost:5224/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
+
+[
+  {
+    "op": "asd",
+    "path": "items/-",
+    "value": 
+  }
+]
+
+###
+

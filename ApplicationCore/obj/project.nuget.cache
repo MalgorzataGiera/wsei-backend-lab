@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v/EZRn4c0b1Q45Gerls7/XM8Yu3vJY3+RMSZVjOW2LtpSPH8anpmbGyeVcYyz9IlEqhHW9v5nV4nLensGHlmNQ==",
+  "dgSpecHash": "ikC/1BTd01E6P+TOeuUo2eXIMB3gMCW9uvwMi41rVuOD+sLNghAyCVNc0jbwXDwgSsl0d8AjVHD+1K4IT4a0cg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\malgorzata.giera\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

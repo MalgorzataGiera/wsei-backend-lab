@@ -37,4 +37,31 @@ public class QuizAdminService:IQuizAdminService
     public List<Quiz> FindAllQuizzes()
     { return quizRepository.FindAll();
     }
+
+    public Quiz AddQuiz(Quiz quiz)
+    {
+        return quizRepository.Add(quiz);
+    }
+
+    public void UpdateQuiz(Quiz quiz)
+    {
+        quizRepository.Update(quiz.Id, quiz);
+        //var quizFound = quizRepository.FindById(quiz.Id);
+        //quizFound = quiz;
+        //quizRepository.Update(quiz.Id, quizFound);
+    }
+
+    public void AddQuizItemToQuiz(int quizId, QuizItem item)
+    {
+        var quiz = quizRepository.FindById(quizId); 
+
+        if (quiz == null)
+        {
+            throw new ArgumentException("Quiz o podanym Id nie został znaleziony", nameof(quizId));
+        }
+
+        quiz.Items.Add(item);
+
+        quizRepository.Update(quizId, quiz);
+    }
 }
