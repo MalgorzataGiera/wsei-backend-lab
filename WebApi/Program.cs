@@ -2,8 +2,10 @@ using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Infrastructure;
 using Infrastructure.Memory;
 using Infrastructure.Memory.Repository;
+using Infrastructure.Services;
 using WebApi.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +27,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
+builder.Services.AddDbContext<QuizDbContext>();
+builder.Services.AddTransient <IQuizUserService, QuizUserServiceEF>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -38,5 +42,5 @@ app.UseHttpsRedirection();
 
 //app.UseAuthorization();
 app.MapControllers();
-app.Seed();
+//app.Seed();
 app.Run();

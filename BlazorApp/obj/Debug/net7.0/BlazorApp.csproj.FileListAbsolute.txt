@@ -84,3 +84,47 @@ D:\asp-lab\lab2\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\refint\BlazorApp.dll
 D:\asp-lab\lab2\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
 D:\asp-lab\lab2\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 D:\asp-lab\lab2\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\appsettings.Development.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\appsettings.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.staticwebassets.runtime.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.exe
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.deps.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.runtimeconfig.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.pdb
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.AssemblyReference.cache
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfoInputs.cache
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfo.cs
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.CoreCompileInputs.cache
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.RazorAssemblyInfo.cache
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.RazorAssemblyInfo.cs
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.sourcelink.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets.build.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets.development.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp.props
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp.props
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp.props
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets.pack.json
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\bundle\BlazorApp.styles.css
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.Up2Date
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\refint\BlazorApp.dll
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
+D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll

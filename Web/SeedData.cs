@@ -22,7 +22,7 @@ public static class SeedData
                 new QuizItem(2, "Pytanie 2", new List<string> {"Odpowiedź 1", "Odpowiedź 2", "Odpowiedź 3"}, "Odpowiedź poprawna"),
                 new QuizItem(3, "Pytanie 3", new List<string> {"Odpowiedź 1", "Odpowiedź 2", "Odpowiedź 3"}, "Odpowiedź poprawna")
             };
-        var quiz1 = new Quiz(1, quiz1Items, "Quiz 1");
+        var quiz1 = new Quiz(1, "Quiz 1", quiz1Items);
         quizRepo.Add(quiz1); 
         foreach (var item in quiz1Items)
         {
@@ -35,7 +35,7 @@ public static class SeedData
                 new QuizItem(2, "Pytanie 2", new List<string> {"Odpowiedź 1", "Odpowiedź 2", "Odpowiedź 3"}, "Odpowiedź poprawna"),
                 new QuizItem(3, "Pytanie 3", new List<string> {"Odpowiedź 1", "Odpowiedź 2", "Odpowiedź 3"}, "Odpowiedź poprawna")
             };
-        var quiz2 = new Quiz(2, quiz2Items, "Quiz 2");
+        var quiz2 = new Quiz(2, "Quiz 2", quiz2Items);
         quizRepo.Add(quiz2); 
         foreach (var item in quiz2Items)
         {

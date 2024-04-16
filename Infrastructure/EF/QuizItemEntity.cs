@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Infrastructure.EF
+{
+    public class QuizItemEntity
+    {
+        //public QuizItemEntity(int id, string question, ISet<QuizEntity> quizzes, string correctAnswer, ISet<QuizItemAnswerEntity> incorrectAnswers)
+        //{
+        //    Id = id;
+        //    Question = question;
+        //    Quizzes = quizzes;
+        //    CorrectAnswer = correctAnswer;
+        //    IncorrectAnswers = incorrectAnswers;
+        //}
+
+        public int Id { get; set; }
+        public string Question { get; set; }
+        public ISet<QuizEntity> Quizzes { get; set; } = new HashSet<QuizEntity>();
+        public string CorrectAnswer { get; set; }
+        public ISet<QuizItemAnswerEntity> IncorrectAnswers { get; set; } = new HashSet<QuizItemAnswerEntity>();
+    }
+}
+

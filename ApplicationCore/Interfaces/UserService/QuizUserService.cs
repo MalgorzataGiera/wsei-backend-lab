@@ -59,4 +59,9 @@ public class QuizUserService: IQuizUserService
     {
         return quizRepository.FindAll();
     }
+
+    QuizItemUserAnswer IQuizUserService.SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
+    {
+        throw new NotImplementedException();
+    }
 }

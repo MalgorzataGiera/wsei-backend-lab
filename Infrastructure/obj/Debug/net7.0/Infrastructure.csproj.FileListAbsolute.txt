@@ -62,3 +62,5 @@ D:\backend poprawione\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastru
 D:\backend poprawione\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 D:\backend poprawione\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 D:\backend poprawione\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\backend poprawione\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+D:\backend poprawione\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache

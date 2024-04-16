@@ -1,5 +1,4 @@
-﻿using ApplicationCore.Models.QuizAggregate;
-using BackendLab01;
+﻿using BackendLab01;
 using FluentValidation;
 
 namespace WebApi.Validators
