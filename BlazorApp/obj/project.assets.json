@@ -714,19 +714,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gosia\\.nuget\\packages\\": {}
+    "D:\\Users\\malgorzata.giera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\BlazorApp.csproj",
-      "packagesPath": "C:\\Users\\gosia\\.nuget\\packages\\",
-      "outputPath": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\",
+      "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\BlazorApp.csproj",
+      "packagesPath": "D:\\Users\\malgorzata.giera\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\malgorzata.giera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -781,7 +781,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

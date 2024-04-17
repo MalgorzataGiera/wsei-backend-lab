@@ -58,3 +58,15 @@ D:\backend poprawione\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\Applicat
 D:\backend poprawione\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 D:\backend poprawione\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 D:\backend poprawione\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

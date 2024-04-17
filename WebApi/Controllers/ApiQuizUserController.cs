@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Exceptions;
 using BackendLab01;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.DTO;
 
@@ -52,6 +53,6 @@ namespace WebApi.Controllers
                 UserId = 1
             };                
         }
-        
+
     }
 }

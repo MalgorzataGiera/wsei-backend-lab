@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gosia\\.nuget\\packages\\": {}
+    "D:\\Users\\malgorzata.giera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\gosia\\.nuget\\packages\\",
-      "outputPath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\obj\\",
+      "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+      "packagesPath": "D:\\Users\\malgorzata.giera\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\malgorzata.giera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

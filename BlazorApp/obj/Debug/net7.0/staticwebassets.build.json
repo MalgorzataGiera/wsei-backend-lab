@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QAvP1Zv8YxApZvvBIBisQp40UpaUOV8zl0Rr9RUdHeU=",
+  "Hash": "HmAP5cv2x5/7WmUWsKttnw1NfyW5khdMXuzST6PyPAA=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorApp\\wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css"
+      "OriginalItemSpec": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\css\\site.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\favicon.png",
+      "Identity": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\favicon.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\backend poprawione\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

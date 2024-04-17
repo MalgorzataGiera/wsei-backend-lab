@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\backend poprawione\\wsei-backend-lab\\Web\\Web.csproj": {}
+    "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Web\\Web.csproj": {}
   },
   "projects": {
-    "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\gosia\\.nuget\\packages\\",
-        "outputPath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\malgorzata.giera\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\malgorzata.giera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\backend poprawione\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend poprawione\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\gosia\\.nuget\\packages\\",
-        "outputPath": "D:\\backend poprawione\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "D:\\Users\\malgorzata.giera\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\malgorzata.giera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +88,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -109,6 +109,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.18, )"
@@ -146,21 +150,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\backend poprawione\\wsei-backend-lab\\Web\\Web.csproj": {
+    "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend poprawione\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectUniqueName": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\gosia\\.nuget\\packages\\",
-        "outputPath": "D:\\backend poprawione\\wsei-backend-lab\\Web\\obj\\",
+        "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Web\\Web.csproj",
+        "packagesPath": "D:\\Users\\malgorzata.giera\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\malgorzata.giera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,11 +178,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\backend poprawione\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\backend poprawione\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\malgorzata.giera\\Desktop\\dupa\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -222,7 +226,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,14 +1,17 @@
 ﻿using Infrastructure.EF;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Infrastructure
 {
-    public class QuizDbContext : DbContext
+    public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
     {
         public DbSet<QuizEntity> Quizzes { get; set; }
         public DbSet<QuizItemEntity> QuizItems { get; set; }
@@ -18,8 +21,9 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(
-                "DATA SOURCE=DESKTOP-61AR7HS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True");
+            //optionsBuilder.UseSqlServer(
+                //"DATA SOURCE=NY-12\\SQLEXPRESS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("DATA SOURCE=NY-12\\SQLEXPRESS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("WebApi"));
 
         }
 
@@ -32,7 +36,7 @@ namespace Infrastructure
 
             modelBuilder.Entity<UserEntity>()
                 .HasData(
-                new UserEntity(1, "123@gmail.com", "zaq1@WSX")
+                new UserEntity(Guid.NewGuid(), "123@gmail.com", "zaq1@WSX")
                 );
 
             modelBuilder.Entity<QuizItemAnswerEntity>()

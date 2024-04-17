@@ -128,3 +128,47 @@ D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\refint\BlazorA
 D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
 D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 D:\backend poprawione\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\appsettings.Development.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\appsettings.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.staticwebassets.runtime.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.exe
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.deps.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.runtimeconfig.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\BlazorApp.pdb
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.AssemblyReference.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfoInputs.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfo.cs
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.CoreCompileInputs.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.RazorAssemblyInfo.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.RazorAssemblyInfo.cs
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.sourcelink.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets.build.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets.development.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp.props
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp.props
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp.props
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\bundle\BlazorApp.styles.css
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.Up2Date
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\refint\BlazorApp.dll
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
+D:\Users\malgorzata.giera\Desktop\dupa\wsei-backend-lab\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
