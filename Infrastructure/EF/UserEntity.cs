@@ -13,15 +13,15 @@ namespace Infrastructure.EF
         {
         }
 
-        public UserEntity(Guid id, string email, string password)
+        public UserEntity(int id, string email, string password)
         {
             Id = id;
             Email = email;
             Password = password;
         }
 
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
+        public string? Password { get; set; }
     }
 }

@@ -108,38 +108,45 @@ namespace WebApi.Configuration
                 });
         }
 
-        public static async void AddUsers(this WebApplication app)
+        public static async Task AddUsers(this WebApplication app)
         {
             using (var scope = app.Services.CreateScope())
             {
                 var userManager = scope.ServiceProvider.GetService<UserManager<UserEntity>>();
+                var context = scope.ServiceProvider.GetService<QuizDbContext>();
                 var find = await userManager.FindByEmailAsync("karol@wsei.edu.pl");
                 if (find == null)
                 {
-                    UserEntity user = new UserEntity() {Id = Guid.NewGuid(), Email = "karol@wsei.edu.pl", UserName = "karol" };
+                    UserEntity user = new UserEntity() { Email = "karol@wsei.edu.pl", UserName = "karol" };
 
-                    var saved = await userManager?.CreateAsync(user, "1234ABcd$");
-                    userManager.AddToRoleAsync(user, "USER");
+                    var saved = await userManager.CreateAsync(user, "1234ABcd$");
+                    if (saved.Succeeded)
+                    {
+                        await userManager.AddToRoleAsync(user, "USER");
+                        await context.SaveChangesAsync();
+
+                    }
+
                 }
             }
         }
-    }
 
-    public class JwtSettings
-    {
-        private static readonly string _section = "JwtSettings";
-
-        private readonly IConfiguration _configuration;
-
-        public string? Issuer => _configuration.GetSection(_section).GetSection("ValidIssuer").Value;
-
-        public string? Audience => _configuration.GetSection(_section).GetSection("ValidAudience").Value;
-
-        public string? Secret => _configuration.GetSection(_section).GetSection("Secret").Value;
-
-        public JwtSettings(IConfiguration configuration)
+        public class JwtSettings
         {
-            _configuration = configuration;
+            private static readonly string _section = "JwtSettings";
+
+            private readonly IConfiguration _configuration;
+
+            public string? Issuer => _configuration.GetSection(_section).GetSection("ValidIssuer").Value;
+
+            public string? Audience => _configuration.GetSection(_section).GetSection("ValidAudience").Value;
+
+            public string? Secret => _configuration.GetSection(_section).GetSection("Secret").Value;
+
+            public JwtSettings(IConfiguration configuration)
+            {
+                _configuration = configuration;
+            }
         }
     }
 }

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebApi.Controllers.AuthenticationController",
+    "Method": "Authenticate",
+    "RelativePath": "api/authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "WebApi.DTO.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.ApiQuizAdminController",
     "Method": "CreateQuiz",
     "RelativePath": "api/v1/admin/quizzes",

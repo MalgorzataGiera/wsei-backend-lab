@@ -10,37 +10,48 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.OpenApi.Models;
 using WebApi.Configuration;
 using WebApi.Validators;
+using static WebApi.Configuration.Configure;
 
-var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddSwaggerGen();
-builder.Services.AddTransient<IntGenerator>();
-builder.Services.AddDbContext<QuizDbContext>();
-builder.Services.AddSingleton<JwtSettings>();
-builder.Services.ConfigureIdentity();
-builder.Services.ConfigureJWT(new JwtSettings(builder.Configuration));
-builder.Services.ConfigureCors();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options =>
+public partial class Program
 {
-    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+
+}
+partial class Program
+{ 
+    public static void Main(string[] args)
     {
-        Description = @"JWT Authorization header using the Bearer scheme.
+        var builder = WebApplication.CreateBuilder(args);
+
+        // Add services to the container.
+
+        builder.Services.AddControllers();
+        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddFluentValidationAutoValidation();
+        builder.Services.AddSwaggerGen();
+        builder.Services.AddTransient<IntGenerator>();
+        builder.Services.AddDbContext<QuizDbContext>();
+        builder.Services.AddSingleton<JwtSettings>();
+        builder.Services.ConfigureIdentity();
+        builder.Services.ConfigureJWT(new JwtSettings(builder.Configuration));
+        builder.Services.ConfigureCors();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen(options =>
+        {
+            options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+            {
+                Description = @"JWT Authorization header using the Bearer scheme.
               Enter 'Bearer' and then your token in the text input below.
               Example: 'Bearer 12345abcdef'",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer"
-    });
-    options.AddSecurityRequirement(new OpenApiSecurityRequirement()
-    {
+                Name = "Authorization",
+                In = ParameterLocation.Header,
+                Type = SecuritySchemeType.ApiKey,
+                Scheme = "Bearer"
+            });
+            options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+            {
         {
             new OpenApiSecurityScheme
             {
@@ -56,35 +67,38 @@ builder.Services.AddSwaggerGen(options =>
             },
             new List<string>()
         }
-    });
+            });
 
-    options.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Version = "v1",
-        Title = "Quiz API",
-    });
-});
-builder.Services.AddTransient<IQuizUserService, QuizUserServiceEF>();
-builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
-builder.Services
-    .AddControllersWithViews()
-    .AddNewtonsoftJson();
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            options.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Version = "v1",
+                Title = "Quiz API",
+            });
+        });
+        builder.Services.AddTransient<IQuizUserService, QuizUserServiceEF>();
+        builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
+        builder.Services
+            .AddControllersWithViews()
+            .AddNewtonsoftJson();
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-var app = builder.Build();
+        var app = builder.Build();
 
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+
+        app.UseHttpsRedirection();
+
+        app.UseAuthorization();
+        app.UseHttpsRedirection();
+        app.AddUsers();
+        app.MapControllers();
+        app.Run();
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-app.UseHttpsRedirection();
-app.AddUsers();
-app.MapControllers();
-app.Run();

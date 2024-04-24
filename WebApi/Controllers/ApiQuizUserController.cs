@@ -31,7 +31,7 @@ namespace WebApi.Controllers
         {
             try
             {
-                _service.SaveUserAnswerForQuiz(quizId, userId: 1, itemId, dto.Answer);
+                _service.SaveUserAnswerForQuiz(quizId, 1, itemId, dto.Answer);
                 return Ok();
             }
             catch (DuplicateAnswerException ex)

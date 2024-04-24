@@ -64,7 +64,7 @@ namespace Infrastructure.Services
             return userAnswers.AsQueryable();
         }
 
-        public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int quizItemId, int userId, string answer)
+        public void SaveUserAnswerForQuiz(int quizId, int quizItemId, int userId, string answer)
         {
             QuizItemUserAnswerEntity entity = new QuizItemUserAnswerEntity()
             {
@@ -76,14 +76,7 @@ namespace Infrastructure.Services
             try
             {
                 var saved = _context.UserAnswers.Add(entity).Entity;
-                _context.SaveChanges();
-                return new QuizItemUserAnswer()
-                {
-                    QuizId = saved.QuizId,
-                    QuizItem = QuizMapper.FromEntityToQuizItem(saved.QuizItem),
-                    UserId = saved.UserId,
-                    Answer = saved.UserAnswer
-                };
+                _context.SaveChanges();                
             }
             catch (DbUpdateException e)
             {

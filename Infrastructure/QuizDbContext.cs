@@ -21,10 +21,8 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            //optionsBuilder.UseSqlServer(
-                //"DATA SOURCE=NY-12\\SQLEXPRESS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True");
-            optionsBuilder.UseSqlServer("DATA SOURCE=NY-12\\SQLEXPRESS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("WebApi"));
-
+            optionsBuilder.UseSqlServer("DATA SOURCE=NY-12\\SQLEXPRESS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("DATA SOURCE=NY-12\\SQLEXPRESS;DATABASE=Backend;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("Web"));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -36,7 +34,7 @@ namespace Infrastructure
 
             modelBuilder.Entity<UserEntity>()
                 .HasData(
-                new UserEntity(Guid.NewGuid(), "123@gmail.com", "zaq1@WSX")
+                new UserEntity(1, "321@gmail.com", "strong")
                 );
 
             modelBuilder.Entity<QuizItemAnswerEntity>()

@@ -58,12 +58,3 @@ Content-Type: application/json-patch+json
 
 ###
 
-POST  https://localhost:7077/api/v1/quizzes/1/items/1/answer
-Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoia2Fyb2wiLCJnZW5kZXIiOiJtYWxlIiwiZW1haWwiOiJrYXJvbEB3c2VpLmVkdS5wbCIsImV4cCI6MTY4MTMwODAwNCwianRpIjoiMWQ3NWZhYzUtZWVlMS00NWI1LTgwMjYtOGQ2MWIwMTUyNThhIiwiYXVkIjoid3NlaSIsImlzcyI6IndzZWkifQ.Ks6Lpep_t63Vy-1FFgr_4vroNO3p8JgOybghZ1qdMrI
-
-{
-  "userId": 1,
-  "answer": "5"
-}
-

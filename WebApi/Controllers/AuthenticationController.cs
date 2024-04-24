@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.JsonWebTokens;
 using System.Text;
 using WebApi.Configuration;
 using WebApi.DTO;
+using static WebApi.Configuration.Configure;
 
 namespace WebApi.Controllers
 {
